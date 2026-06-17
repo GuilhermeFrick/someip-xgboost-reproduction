@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset: os .npz (comprimidos) SÃO versionados via Git LFS (ver .gitattributes).
+# Os .npy originais (~760 MB) e os pcaps (~2.2 GB) NÃO são versionados.
+*.npy
+*.pcap
+*.tar
+
+# Saídas
+results/*.json
+
+# OS
+Thumbs.db
+.DS_Store
