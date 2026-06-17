@@ -19,6 +19,12 @@ treinado**. Este repositório fornece o código de treino/avaliação faltante.
 
 Ver [docs/analise-artigo.md](docs/analise-artigo.md) para a análise completa.
 
+## ▶️ Reproduzir no Google Colab
+Abra **`Kim_Colab.ipynb`** no Colab (não precisa de GPU). Ele clona o repo (com os dados via
+Git LFS), treina o XGBoost, avalia e apresenta **tabela de métricas + matriz de confusão +
+curva ROC** — destacando que o F1 0,97 do artigo é o **ponderado** (o F1 da classe ataque
+é ~0,84).
+
 ## Estrutura
 ```
 KIM-repro/
